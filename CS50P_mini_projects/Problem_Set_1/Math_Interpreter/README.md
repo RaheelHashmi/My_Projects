@@ -10,8 +10,11 @@ input will be formatted as x y z, with one space between x and y and one space
 between y and z, wherein:
 
 x is an integer
+
 y is +, -, *, or /
+
 z is an integer
+
 For instance, if the user inputs 1 + 1, your program should output 2.0. Assume 
 that, if y is /, then z will not be 0.
 
