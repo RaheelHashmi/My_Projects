@@ -1,1 +1,1 @@
-# **WEEK 2**: Loops
+# **WEEK 2:** *Loops*
