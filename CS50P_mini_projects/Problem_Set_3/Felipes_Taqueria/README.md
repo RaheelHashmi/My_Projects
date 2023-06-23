@@ -1,4 +1,4 @@
-# Felipe’s Taqueria
+# [**Felipe’s Taqueria**](https://cs50.harvard.edu/python/2022/psets/3/taqueria/)
 One of the most popular places to eat in Harvard Square is Felipe’s Taqueria, 
 which offers a menu of entrees, per the dict below, wherein the value of each 
 key is a price in dollars. In a file called taqueria.py, implement a program 
