@@ -1,4 +1,4 @@
-# Outdated
+# [**Outdated**](https://cs50.harvard.edu/python/2022/psets/3/outdated/)
 In the United States, dates are typically formatted in month-day-year order 
 (MM/DD/YYYY), otherwise known as middle-endian order, which is arguably bad 
 design. Dates in that format can’t be easily sorted because the date’s year 
