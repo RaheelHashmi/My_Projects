@@ -35,7 +35,7 @@ user to input times in these formats too:
 
 
 def main():
-    meal_time = input("What time is it? ").strip().lower().replace(" ", "")
+    meal_time = input("What time is it? ")
     meal_time = convert(meal_time)
     if meal_time is None:
         print("invalid time")
@@ -45,17 +45,19 @@ def main():
         print("lunch time")
     elif 18 <= meal_time <= 19:
         print("dinner time")
+    # else:
+    #     print("It's Khabib Time!")
 
 
 def convert(time):
-    time = time.split(":")
+    time = time.strip().lower().replace(" ", "").split(":")
     hour = float(time[0])
     if hour < 0 or hour > 23:
         return None
     if len(time[1]) > 2:
-        minutes = float(time[1][:2])
+        minutes = float("".join([i for i in time[1] if i.isnumeric()]))
         if 0 <= minutes <= 59:
-            if time[1].endswith("p.m."):
+            if "".join([i for i in time[1] if i.isalpha()]) == "pm":
                 if hour > 12:
                     return None
                 if hour < 12:
@@ -63,7 +65,7 @@ def convert(time):
                     return hour + (minutes / 60)
 
                 return hour + (minutes / 60)
-            if time[1].endswith("a.m."):
+            if "".join([i for i in time[1] if i.isalpha()]) == "am":
                 if hour > 12:
                     return None
                 if hour == 12:
