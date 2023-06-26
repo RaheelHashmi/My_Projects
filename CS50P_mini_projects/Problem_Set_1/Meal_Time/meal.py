@@ -31,6 +31,22 @@ user to input times in these formats too:
 18:32 ------------> dinner time
 
 11:11 ------------> no output
+
+In addition to the challenge provided above by the official CS50P`s 
+opencourseware, I have personally addressed the following edge cases as well:
+
+1) If the user inputs time beyond the time limits such as minutes above 59, or 
+hours beyond 12 in 12-hour format or above 23 in 24-hour format, the code will 
+explicitly output invalid time.
+2) The user might input a.m. or p.m. case insensitively such as A.M. or P.m or 
+maybe p.M. Also, the user might input a.m. and p.m.in a different format, like 
+without periods as pm or AM. This code will be able to extract the a.m. and p.m. 
+information from these types of user inputs.
+3) This code also allows for the handling of unnecessary spaces that the user 
+might "accidentally" input before, after or even between the useful information 
+about time. Like 7:  45  p .m    or    6   : 4  3   a  m.
+4) This code will also handle the situation where the user might enter 7:05 as 
+7:5 i.e a single digit for minutes less than 10.
 """
 
 
