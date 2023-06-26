@@ -62,7 +62,7 @@ def main():
     elif 18 <= meal_time <= 19:
         print("dinner time")
     # else:
-    #     print("It's Khabib Time!")
+    #     print("It's Khabib Time!😉")
 
 
 def convert(time):
@@ -74,7 +74,7 @@ def convert(time):
         minutes = float("".join([i for i in time[1] if i.isnumeric()]))
         if 0 <= minutes <= 59:
             if "".join([i for i in time[1] if i.isalpha()]) == "pm":
-                if hour > 12:
+                if hour == 0 or hour > 12:
                     return None
                 if hour < 12:
                     hour += 12
@@ -82,7 +82,7 @@ def convert(time):
 
                 return hour + (minutes / 60)
             if "".join([i for i in time[1] if i.isalpha()]) == "am":
-                if hour > 12:
+                if hour == 0 or hour > 12:
                     return None
                 if hour == 12:
                     hour -= 12
