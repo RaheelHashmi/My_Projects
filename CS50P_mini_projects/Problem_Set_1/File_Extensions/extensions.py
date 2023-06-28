@@ -33,7 +33,6 @@ If the file’s name ends with some other suffix or has no suffix at all, output
 application/octet-stream instead, which is a common default.
 
 happy.jpg --------------> image/jpeg
-
 document.pdf -----------> application/pdf
 
 Be sure to test each of the other file formats, vary the casing of your input, 
