@@ -12,11 +12,8 @@ leading whitespace in the user’s greeting, and treat the user’s greeting
 case-insensitively.
 
 Hello -----------------------> $0
-
 Hello, Newman ---------------> $0
-
 How you doing? --------------> $20
-
 What's happening? -----------> $100
 """
 kramer = input("Greeting: ").strip().lower().split(" ")[0]
