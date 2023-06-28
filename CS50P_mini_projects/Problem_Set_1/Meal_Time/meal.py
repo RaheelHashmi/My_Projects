@@ -23,13 +23,9 @@ user to input times in these formats too:
 2) #:## p.m. and ##:## p.m.
 
 7:00 -------------> breakfast time
-
 7:30 -------------> breakfast time
-
 12:42 ------------> lunch time
-
 18:32 ------------> dinner time
-
 11:11 ------------> no output
 
 In addition to the challenge provided above by the official CS50P`s 
