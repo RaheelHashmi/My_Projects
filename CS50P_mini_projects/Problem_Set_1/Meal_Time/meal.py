@@ -67,7 +67,7 @@ def convert(time):
     if hour < 0 or hour > 23:
         return None
     if len(time[1]) > 2:
-        minutes = float("".join([i for i in time[1] if i.isnumeric()]))
+        minutes = float("".join([i for i in time[1] if i.isdecimal()]))
         if 0 <= minutes <= 59:
             if "".join([i for i in time[1] if i.isalpha()]) == "pm":
                 if hour == 0 or hour > 12:
