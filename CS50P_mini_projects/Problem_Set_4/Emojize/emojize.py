@@ -13,9 +13,7 @@ in English and then outputs the “emojized” version of that str, converting a
 codes (or aliases) therein to their corresponding emoji.
 
 :1st_place_medal: ----------> Output: 🥇
-
 :money_bag: ----------------> Output: 💰
-
 :smile_cat: ----------------> Output: 😸
 """
 import emoji
