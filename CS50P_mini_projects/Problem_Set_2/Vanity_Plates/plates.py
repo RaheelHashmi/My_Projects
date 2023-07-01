@@ -54,9 +54,12 @@ def second_condition(s):
 
 
 def third_condition(s):
-    for character in s:
-        if character.isdecimal():
-            return character != "0" and s[s.index(character) :].isdecimal()
+    if not s.isalpha():
+        for character in s:
+            if character.isdecimal():
+                return character != "0" and s[s.index(character) :].isdecimal()
+    else:
+        return True
     return False
 
 
