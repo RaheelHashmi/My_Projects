@@ -13,9 +13,12 @@ number of Joules as an integer. Assume that the user will input an integer.
 14 --------> 1260000000000000000
 50 --------> 4500000000000000000
 """
+
+
 def main():
     mass = int(input("m: "))
-    energy = mass * (300000000 ** 2)
+    energy = mass * (300000000**2)
     print(f"E: {energy}")
+
 
 main()
