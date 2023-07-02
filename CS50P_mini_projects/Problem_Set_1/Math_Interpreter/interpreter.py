@@ -9,9 +9,10 @@ floating-point value formatted to one decimal place. Assume that the user’s
 input will be formatted as x y z, with one space between x and y and one space 
 between y and z, wherein:
 
-x is an integer
-y is +, -, *, or /
-z is an integer
+1) x is an integer
+2) y is +, -, *, or /
+3) z is an integer
+
 For instance, if the user inputs 1 + 1, your program should output 2.0. Assume 
 that, if y is /, then z will not be 0.
 
