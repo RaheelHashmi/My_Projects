@@ -11,9 +11,9 @@ In a file called professor.py, implement a program that:
 
 1) Prompts the user for a level, n. If the user does not input 1, 2, or 3, the 
 program should prompt again.
-2) Randomly generates ten (10) math problems formatted as X + Y = , wherein each of 
-X and Y is a non-negative integer with n digits. No need to support operations 
-other than addition (+).
+2) Randomly generates ten (10) math problems formatted as X + Y = , wherein each 
+of X and Y is a non-negative integer with n digits. No need to support 
+operations other than addition (+).
 3) Prompts the user to solve each of those problems. If an answer is not correct 
 (or not even a number), the program should output EEE and prompt the user again, 
 allowing the user up to three tries in total for that problem. If the user has 
