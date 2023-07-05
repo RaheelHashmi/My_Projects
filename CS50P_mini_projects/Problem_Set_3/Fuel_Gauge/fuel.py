@@ -14,14 +14,35 @@ If, though, X or Y is not an integer, X is greater than Y, or Y is 0, instead
 prompt the user again. (It is not necessary for Y to be 4.) Be sure to catch any 
 exceptions like ValueError or ZeroDivisionError.
 
-3/4 -----------------> 75%
-1/4 -----------------> 25%
-4/4 -----------------> F
-0/4 -----------------> E
-4/0 -----------------> reprompt the user (ZeroDivisionError)
-three/four ----------> reprompt the user (ValueError)
-1.5/3 ---------------> reprompt the user (ValueError)
-5/4 -----------------> reprompt the user
+Here’s how to test your code manually:
+
+Run your program with python fuel.py. Type 3/4 and press Enter. Your program 
+should output:
+75% 
+
+Run your program with python fuel.py. Type 1/4 and press Enter. Your program 
+should output:
+25%
+
+Run your program with python fuel.py. Type 4/4 and press Enter. Your program 
+should output:
+F
+
+Run your program with python fuel.py. Type 0/4 and press Enter. Your program 
+should output:
+E
+
+Run your program with python fuel.py. Type 4/0 and press Enter. Your program 
+should handle a ZeroDivisionError and prompt the user again.
+
+Run your program with python fuel.py. Type three/four and press Enter. Your 
+program should handle a ValueError and prompt the user again.
+
+Run your program with python fuel.py. Type 1.5/3 and press Enter. Your program 
+should handle a ValueError and prompt the user again.
+
+Run your program with python fuel.py. Type 5/4 and press Enter. Your program 
+should prompt the user again.
 """
 while True:
     try:
