@@ -3,8 +3,18 @@ Some people have a habit of <strike>lecturing</strike> speaking rather quickly, 
 
 In a file called `playback.py`, implement a program in Python that prompts the user for input and then outputs that same input, replacing each space with `...` (i.e., three periods).
 
-This is CS50 ---------------------------------> This...is...CS50
+Here’s how to test your code manually:
 
-This is our week on functions --------------> This...is...our...week...on...functions
-
-Let's implement a function called hello ----> Let's...implement...a...function...called...hello
+  * Run your program with `python playback.py`. Type `This is CS50` and press Enter. Your program should output:
+    ```
+    This...is...CS50    
+    ```
+  * Run your program with `python playback.py`. Type `This is our week on functions` and press Enter. Your program should output:
+    ```
+    This...is...our...week...on...functions 
+    ```
+  * Run your program with `python playback.py`. Type `Let's implement a function called hello` and press Enter. Your program should output
+    ```
+    Let's...implement...a...function...called...hello
+    ```
+    
