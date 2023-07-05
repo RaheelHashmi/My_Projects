@@ -5,8 +5,17 @@ In a file called `twttr.py`, implement a program that prompts the user for a `st
 of text and then outputs that same text but with all vowels (A, E, I, O, and U) 
 omitted, whether inputted in uppercase or lowercase.
 
-Twitter -------------------> Twttr
+Here’s how to test your code manually:
 
-What's your name? -----> Wht's yr nm?
-
-CS50 ---------------------> CS50
+  * Run your program with `python twttr.py`. Type `Twitter` and press Enter. Your program should output:
+    ```
+    Twttr   
+    ```
+  * Run your program with `python twttr.py`. Type `What's your name?` and press Enter. Your program should output:
+    ```
+    Wht's yr nm?
+    ```
+  * Run your program with `python twttr.py`. Type `CS50` and press Enter. Your program should output
+    ```
+    CS50
+    ```
