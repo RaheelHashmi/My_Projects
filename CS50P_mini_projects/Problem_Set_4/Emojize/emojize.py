@@ -12,9 +12,19 @@ In a file called emojize.py, implement a program that prompts the user for a str
 in English and then outputs the “emojized” version of that str, converting any 
 codes (or aliases) therein to their corresponding emoji.
 
-:1st_place_medal: ----------> Output: 🥇
-:money_bag: ----------------> Output: 💰
-:smile_cat: ----------------> Output: 😸
+Here’s how to test your code manually:
+
+Run your program with python emojize.py. Type :1st_place_medal: and press Enter. 
+Your program should output:
+Output: 🥇
+
+Run your program with python emojize.py. Type :money_bag: and press Enter. Your 
+program should output:
+Output: 💰 
+
+Run your program with python emojize.py. Type :smile_cat: and press Enter. Your 
+program should output:
+Output: 😸
 """
 import emoji
 
