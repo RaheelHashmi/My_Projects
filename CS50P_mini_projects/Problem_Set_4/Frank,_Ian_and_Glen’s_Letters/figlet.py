@@ -1,4 +1,4 @@
-"""
+r"""
 FIGlet, named after Frank, Ian, and Glen’s letters, is a program from the early 
 1990s for making large letters out of ordinary text, a form of ASCII art:
 
