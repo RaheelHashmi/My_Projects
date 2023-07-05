@@ -22,13 +22,17 @@ In a file called `outdated.py`, implement a program that prompts the user for a 
 ]
 ```
 
-
 Then output that same date in `YYYY-MM-DD` format. If the user’s input is not a valid date in either format, prompt the user again. Assume that every month has no more than 31 days; no need to validate whether a month has 28, 29, 30, or 31 days.
 
-9/8/1636 -----------------> 1636-09-08
+Here’s how to test your code manually:
 
-September 8, 1636 ------> 1636-09-08
-
-23/6/1912 ----------------> reprompt the user
-
-December 80, 1980 ------> reprompt the user
+  * Run your program with `python outdated.py`. Type `9/8/1636` and press Enter. Your program should output:
+    ```
+    1636-09-08
+    ```
+  * Run your program with `python outdated.py`. Type `September 8, 1636` and press Enter. Your program should output:
+    ```
+    1636-09-08
+    ```
+  * Run your program with `python outdated.py`. Type `23/6/1912` and press Enter. Your program should reprompt the user.
+  * Run your program with `python outdated.py`. Type `December 80, 1980` and press Enter. Your program should reprompt the user.
