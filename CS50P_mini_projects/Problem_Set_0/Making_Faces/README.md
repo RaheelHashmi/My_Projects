@@ -5,8 +5,18 @@ In a file called `faces.py`, implement a function called `convert` that accepts 
 
 Then, in that same file, implement a function called `main` that prompts the user for input, calls `convert` on that input, and prints the result. You’re welcome, but not required, to prompt the user explicitly, as by passing a `str` of your own as an argument to `input`. Be sure to call `main` at the bottom of your file.
 
-Hello :) ----------------------> Hello 🙂
+Here’s how to test your code manually:
 
-Goodbye :( ------------------> Goodbye 🙁
-
-Hello :) Goodbye :( ---------> Hello 🙂 Goodbye 🙁
+    * Run your program with `python faces.py`. Type `Hello :)` and press Enter. Your program should output:
+    ```
+    Hello 🙂
+    ```
+    * Run your program with `python faces.py`. Type `Goodbye :(` and press Enter. Your program should output:
+    ```
+    Goodbye 🙁
+    ```
+    * Run your program with `python faces.py`. Type `Hello :) Goodbye :(` and press Enter. Your program should output
+    ```
+    Hello 🙂 Goodbye 🙁
+    ```
+    
