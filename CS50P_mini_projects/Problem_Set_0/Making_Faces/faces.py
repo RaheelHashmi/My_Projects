@@ -13,9 +13,19 @@ for input, calls convert on that input, and prints the result. You’re welcome,
 but not required, to prompt the user explicitly, as by passing a str of your own 
 as an argument to input. Be sure to call main at the bottom of your file.
 
-Hello :) --------------------> Hello 🙂
-Goodbye :( ------------------> Goodbye 🙁
-Hello :) Goodbye :( ---------> Hello 🙂 Goodbye 🙁
+Here’s how to test your code manually:
+
+Run your program with python faces.py. Type Hello :) and press Enter. Your 
+program should output:
+Hello 🙂
+
+Run your program with python faces.py. Type Goodbye :( and press Enter. Your 
+program should output:
+Goodbye 🙁
+
+Run your program with python faces.py. Type Hello :) Goodbye :( and press Enter. 
+Your program should output
+Hello 🙂 Goodbye 🙁
 """
 
 
