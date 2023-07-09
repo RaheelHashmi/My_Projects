@@ -7,16 +7,16 @@ Then, in that same file, implement a function called `main` that prompts the use
 
 Here’s how to test your code manually:
 
-    * Run your program with `python faces.py`. Type `Hello :)` and press Enter. Your program should output:
+  * Run your program with `python faces.py`. Type `Hello :)` and press Enter. Your program should output:
     ```
     Hello 🙂
     ```
-    * Run your program with `python faces.py`. Type `Goodbye :(` and press Enter. Your program should output:
+  * Run your program with `python faces.py`. Type `Goodbye :(` and press Enter. Your program should output:
     ```
     Goodbye 🙁
     ```
-    * Run your program with `python faces.py`. Type `Hello :) Goodbye :(` and press Enter. Your program should output
+  * Run your program with `python faces.py`. Type `Hello :) Goodbye :(` and press Enter. Your program should output
     ```
     Hello 🙂 Goodbye 🙁
     ```
-    
+   
