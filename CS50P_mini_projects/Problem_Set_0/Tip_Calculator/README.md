@@ -32,8 +32,18 @@ Well, we’ve written *most* of a tip calculator for you. Unfortunately, we didn
 
 Assume that the user will input values in the expected formats.
 
-$50.00, 15% ---------> Leave $7.50
+Here’s how to test your code manually:
 
-$100.00, 18% --------> Leave $18.00
-
-$15.00, 25% ---------> Leave $3.75
+  * Run your program with `python tip.py`. Type `$50.00` and press Enter. Then, type `15%` and press Enter. Your program should output:
+    ```
+    Leave $7.50    
+    ```
+  * Run your program with `python tip.py`. Type `$100.00` and press Enter. Then, type `18%` and press Enter. Your program should output:
+    ```
+    Leave $18.00
+    ```
+  * Run your program with `python tip.py`. Type `$15.00` and press Enter. Then, type `25%` and press Enter. Your program should output
+    ```
+    Leave $3.75
+    ```
+    
