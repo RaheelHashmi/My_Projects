@@ -16,12 +16,23 @@
 
 In `deep.py`, implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting `Yes` if the user inputs `42` or (case-insensitively) `forty-two` or `forty two`. Otherwise output `No`.
 
-42 ------------------> Yes
+Here’s how to test your code manually:
 
-Forty Two ----------> Yes
-
-forty-two -----------> Yes
-
-50 -------------------> No
-
+  * Run your program with `python deep.py`. Type `42` and press Enter. Your program should output:
+    ```
+    Yes 
+    ```
+  * Run your program with `python deep.py`. Type `Forty Two` and press Enter. Your program should output:
+    ```
+    Yes
+    ```
+  * Run your program with `python deep.py`. Type `forty-two` and press Enter. Your program should output
+    ```
+    Yes
+    ```
+  * Run your program with `python deep.py`. Type `50` and press Enter. Your program should output
+    ```
+    No
+    ```
+    
 Be sure to vary the casing of your input and “accidentally” add spaces on either side of your input before pressing enter. Your program should behave as expected, case- and space-insensitively.
