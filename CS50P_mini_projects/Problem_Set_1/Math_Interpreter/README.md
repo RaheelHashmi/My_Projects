@@ -11,10 +11,22 @@ For instance, if the user inputs `1 + 1`, your program should output `2.0`. Assu
 
 Note that, just as `python` itself is an interpreter for Python, so will your `interpreter.py` be an interpreter for math!
 
-1 + 1  ------> 2.0
+Here’s how to test your code manually:
 
-2 - 3  -------> -1.0
-
-2 * 2  -------> 4.0
-
-50 / 5 ------> 10.0
+  * Run your program with `python interpreter.py`. Type `1 + 1` and press Enter. Your program should output:
+    ```
+    2.0 
+    ```
+  * Run your program with `python interpreter.py`. Type `2 - 3` and press Enter. Your program should output:
+    ```
+    -1.0
+    ```
+  * Run your program with `python interpreter.py`. Type `2 * 2` and press Enter. Your program should output
+    ```
+    4.0
+    ```
+  * Run your program with `python interpreter.py`. Type `50 / 5` and press Enter. Your program should output
+    ```
+    10.0
+    ```
+    
