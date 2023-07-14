@@ -3,10 +3,20 @@ The U.S. Food & Drug Adminstration (FDA) offers [downloadable/printable posters]
 
 In a file called `nutrition.py`, implement a program that prompts <strike>consumers</strike> users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the [FDA’s poster for fruits](https://cs50.harvard.edu/python/2022/psets/2/nutrition/Nutrition-Information-for-Raw-Fruits---small-PDF-Poster.pdf), which is also [available as text](https://www.fda.gov/food/food-labeling-nutrition/raw-fruits-poster-text-version-accessible-version). Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., `strawberries`, not `strawberry`). Ignore any input that isn’t a fruit.
 
-Apple -------------------> Calories: 130 
+Here’s how to test your code manually:
 
-Avocado ----------------> Calories: 50
+  * Run your program with `python nutrition.py`. Type `Apple` and press Enter. Your program should output:
+    ```
+    Calories: 130   
+    ```
+  * Run your program with `python nutrition.py`. Type `Avocado` and press Enter. Your program should output:
+    ```
+    Calories: 50
+    ```
+  * Run your program with `python nutrition.py`. Type `Sweet Cherries` and press Enter. Your program should output
+    ```
+    Calories: 100
+    ```
+  * Run your program with `python nutrition.py`. Type `Tomato` and press Enter. Your program should output nothing.
 
-Sweet Cherries ---------> Calories: 100
-
-Tomato -----------------> no output
+Be sure to try other fruits and vary the casing of your input. Your program should behave as expected, case-insensitively.
