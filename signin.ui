@@ -126,7 +126,7 @@ font: 12pt &quot;Mongolian Baiti&quot;;
 color: rgb(249, 255, 185);</string>
     </property>
     <property name="text">
-     <string>Login</string>
+     <string>Sign in</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -170,7 +170,7 @@ color: rgb(249, 255, 185);</string>
 color: rgb(255, 249, 61);</string>
     </property>
     <property name="text">
-     <string>Don't have an account. </string>
+     <string>Don't have an account? </string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">

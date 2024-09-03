@@ -219,6 +219,15 @@ color: rgb(255, 249, 61);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>true</bool>
+    </property>
     <property name="styleSheet">
      <string notr="true">font: 24pt &quot;Gabriola&quot;;
 color: rgb(255, 249, 61);</string>
@@ -231,6 +240,9 @@ color: rgb(255, 249, 61);</string>
     </property>
     <property name="accelerated">
      <bool>true</bool>
+    </property>
+    <property name="correctionMode">
+     <enum>QAbstractSpinBox::CorrectionMode::CorrectToNearestValue</enum>
     </property>
     <property name="showGroupSeparator" stdset="0">
      <bool>true</bool>
@@ -290,6 +302,62 @@ color: rgb(255, 255, 255);</string>
      <set>Qt::InputMethodHint::ImhEmailCharactersOnly</set>
     </property>
    </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Gabriola&quot;;
+color: rgb(255, 249, 61);</string>
+    </property>
+    <property name="text">
+     <string>By signing up, you agree to our</string>
+    </property>
+    <property name="tristate">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Gabriola&quot;;
+color: rgb(255, 249, 61);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;www.google.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0078d7;&quot;&gt;Terms, Privacy Policy and Cookies Policy.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::TextInteractionFlag::TextBrowserInteraction</set>
+    </property>
+   </widget>
+   <zorder>checkBox</zorder>
    <zorder>lineEdit_4</zorder>
    <zorder>lineEdit</zorder>
    <zorder>lineEdit_3</zorder>
@@ -303,6 +371,7 @@ color: rgb(255, 255, 255);</string>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
    <zorder>dateEdit</zorder>
+   <zorder>label_7</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -322,6 +391,7 @@ color: rgb(255, 255, 255);</string>
   <tabstop>lineEdit_3</tabstop>
   <tabstop>dateEdit</tabstop>
   <tabstop>lineEdit_4</tabstop>
+  <tabstop>checkBox</tabstop>
   <tabstop>pushButton</tabstop>
   <tabstop>pushButton_2</tabstop>
  </tabstops>
