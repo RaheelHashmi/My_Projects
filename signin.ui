@@ -203,7 +203,7 @@ color: rgb(249, 255, 185);</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>250</x>
       <y>270</y>
       <width>91</width>
       <height>21</height>
@@ -232,6 +232,29 @@ color: rgb(255, 249, 61);</string>
      <set>Qt::TextInteractionFlag::TextBrowserInteraction</set>
     </property>
    </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;Gabriola&quot;;
+color: rgb(255, 249, 61);</string>
+    </property>
+    <property name="text">
+     <string>Keep me signed in.</string>
+    </property>
+   </widget>
    <zorder>lineEdit_2</zorder>
    <zorder>lineEdit</zorder>
    <zorder>label</zorder>
@@ -242,6 +265,7 @@ color: rgb(255, 249, 61);</string>
    <zorder>pushButton_3</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
+   <zorder>radioButton</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -255,6 +279,14 @@ color: rgb(255, 249, 61);</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>radioButton</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_3</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
