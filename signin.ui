@@ -10,6 +10,18 @@
     <height>463</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>361</width>
+    <height>463</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>361</width>
+    <height>463</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Sign in</string>
   </property>
